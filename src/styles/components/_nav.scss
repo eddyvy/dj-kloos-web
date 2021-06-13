@@ -17,9 +17,7 @@
     align-items: center;
     display: flex;
 
-    background-image: $rainbowed;
-    background-clip: text;
-    color: transparent;
+    
     
     & img {
         width: 80px;
@@ -28,6 +26,9 @@
     & span {
         margin-left: 20px;
         font-size: 5rem;
+        background-image: $rainbowed;
+        background-clip: text;
+        color: transparent;
     }
     
 }
@@ -38,9 +39,11 @@
     font-size: 3rem;
     max-width: 150px;
 
-    background-image: $rainbowed;
-    background-clip: text;
-    color: transparent;
+    & a {
+        background-image: $rainbowed;
+        background-clip: text;
+        color: transparent;
+    }
     
     transition: 0.3s ease-in-out;
     

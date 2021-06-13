@@ -34,33 +34,31 @@ export const Navbar = () => {
     }
 
     return (
-        <nav>
-            <div
-                className="nav__nav-box"
+        <div
+            className="nav__nav-box"
+        >
+            <picture className="nav__logo">
+                <img src={ assetsImg(`./logo.svg`).default } alt="Logo web" id="logo" />
+                <span>Kloos</span>
+            </picture>
+            <button
+                className="nav__button"
+                onClick={ handleClick }
             >
-                <picture className="nav__logo">
-                    <img src={ assetsImg(`./logo.svg`).default } alt="Logo web" id="logo" />
-                    <span>Kloos</span>
-                </picture>
-                <button
-                    className="nav__button"
-                    onClick={ handleClick }
-                >
-                    <a href="#music">Music</a>
-                </button>
-                <button
-                    className="nav__button"
-                    onClick={ handleClick }
-                >
-                    <a href="#contact">Contact</a>
-                </button>
-                <button
-                    className="nav__button"
-                    onClick={ handleClick }
-                >
-                    <a href="#about">About</a>
-                </button>
-            </div>
-        </nav>
+                <a href="#music">Music</a>
+            </button>
+            <button
+                className="nav__button"
+                onClick={ handleClick }
+            >
+                <a href="#contact">Contact</a>
+            </button>
+            <button
+                className="nav__button"
+                onClick={ handleClick }
+            >
+                <a href="#about">About</a>
+            </button>
+        </div>
     )
 }
