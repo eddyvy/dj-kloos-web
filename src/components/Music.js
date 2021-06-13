@@ -37,13 +37,13 @@ export const Music = () => {
             </div>
             <div className="music__links">
                 <div className="music__links-item">
-                    <a href="https://soundcloud.com/kloos/tracks" target="_blank" rel="nofollow">
+                    <a href="https://soundcloud.com/kloos/tracks" target="_blank" rel="noreferrer">
                         <span>Listen Kloos in Soundcloud</span>
                         <img src="http://1000marcas.net/wp-content/uploads/2020/10/SoundCloud-Logo.png" alt="soundcloud icon" />
                     </a>
                 </div>
                 <div className="music__links-item">
-                    <a href="https://open.spotify.com/artist/33OF0U1rvegDwnNwDZxY9X?si=3lhcWjpUScSvomWlBlwSFg&fbclid=IwAR1yvG8R_9NLOecpO7uJV0bvrTWJWNbhIvoVBfjIjqNhdSf1AFcApgSR63M&nd=1" target="_blank" rel="nofollow">
+                    <a href="https://open.spotify.com/artist/33OF0U1rvegDwnNwDZxY9X?si=3lhcWjpUScSvomWlBlwSFg&fbclid=IwAR1yvG8R_9NLOecpO7uJV0bvrTWJWNbhIvoVBfjIjqNhdSf1AFcApgSR63M&nd=1" target="_blank" rel="noreferrer">
                         <span>Listen Kloos in Spotify</span>
                         <img src="https://logodownload.org/wp-content/uploads/2016/09/Spotify-logo.png" alt="spotify icon" />
                     </a>
