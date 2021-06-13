@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7311afff.chunk.css",
+    "main.js": "/static/js/main.a4bc2caf.chunk.js",
+    "main.js.map": "/static/js/main.a4bc2caf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b4992f13.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b4992f13.js.map",
+    "static/js/2.2df4ea69.chunk.js": "/static/js/2.2df4ea69.chunk.js",
+    "static/js/2.2df4ea69.chunk.js.map": "/static/js/2.2df4ea69.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.7311afff.chunk.css.map": "/static/css/main.7311afff.chunk.css.map",
+    "static/js/2.2df4ea69.chunk.js.LICENSE.txt": "/static/js/2.2df4ea69.chunk.js.LICENSE.txt",
+    "static/media/kloos-fondo.jpg": "/static/media/kloos-fondo.e327b3ad.jpg",
+    "static/media/logo.svg": "/static/media/logo.f02a5cef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b4992f13.js",
+    "static/js/2.2df4ea69.chunk.js",
+    "static/css/main.7311afff.chunk.css",
+    "static/js/main.a4bc2caf.chunk.js"
+  ]
+}
