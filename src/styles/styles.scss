@@ -1,0 +1,13 @@
+// External imports
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); //font-family Pacifico
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap'); //font-family Caveat
+
+// Base settings
+@import './base/colors';
+@import './base/settings';
+
+// Components
+@import './components/nav';
+@import './components/music';
+@import './components/about';
+@import './components/contact';
